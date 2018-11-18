@@ -1,0 +1,33 @@
+.page-slide{
+    height :100vh;
+}
+.page-slide-1-top{
+    position: relative;
+    background: url(../img/introduction-visual.png) top right no-repeat;
+    background-size: contain;
+    border-bottom: 1px solid rgba($color: #fff, $alpha: .1);
+    padding-left: 15px;
+    margin-bottom: 35px;
+    &:after{
+       @extend %pseudo;
+       bottom: -6px;
+       width: 30px;
+       height: 6px;
+       left : 15px;
+       background: $color-accent;
+    }
+    h1{
+        padding-top: 60px;
+        max-width: 440px;
+        margin-bottom: 55px;
+    }
+    .btn-main{
+        margin-bottom: 100px;
+    }
+}
+
+.page-slide-1-bottom{
+    padding-left: 15px;
+}
+   
+    

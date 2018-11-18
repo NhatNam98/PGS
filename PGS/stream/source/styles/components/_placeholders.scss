@@ -1,0 +1,21 @@
+%pseudo{
+    content : '';
+    position: absolute;
+    display: block;
+}
+%btn-base{
+    display: inline-block;
+    text-transform: uppercase;
+    line-height: 1;
+    padding: 10px 0 13px;
+    &:hover{
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+}
+%centerd{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
